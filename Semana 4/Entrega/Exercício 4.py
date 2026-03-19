@@ -1,10 +1,14 @@
 usuario = input("Insira o usuário: ")
 senha = input("Insira a senha: ")
 
+if usuario == "convidado" and senha == "":
+    print("Acesso restrito.")
+
 if usuario == "admin":
-    if senha == 1234:
+    if senha == str(1234):
         print("Bem-vindo admin!")
     else:
         print("Acesso bloqueado.")
 else:
-    print("Acesso bloqueado.")
+    if not (usuario == "convidado" and senha == ""):
+        print("Acesso bloqueado.")

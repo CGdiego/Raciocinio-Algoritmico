@@ -1,8 +1,15 @@
+# Variáveis
 valor = int(input("Insira um valor inteiro:\n"))
-i = 1
+i = valor
+plus = 0
+conta = 0
 
 print("\n")
 
-while i != valor:
-    print(i)
-    i += 1
+# Loop
+while i > 0:
+    conta = (valor - 1 * plus) + conta
+    i -= 1
+    plus += 1
+
+print (conta)

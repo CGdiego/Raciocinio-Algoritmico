@@ -18,13 +18,13 @@ while not i: # Loop infinito
             while n2 == 0:
                 n2 = float(input("\nInforme um segundo valor diferente de zero: "))
         if escolha == 1:
-            print(f"\nO resultado da operação é {n1 + n2:.2f}.\n")
+            print(f"\nO resultado da operação é {n1 + n2}.\n")
         elif escolha == 2:
-            print(f"\nO resultado da operação é {n1 - n2:.2f}.\n")
+            print(f"\nO resultado da operação é {n1 - n2}.\n")
         elif escolha == 3:
-            print(f"\nO resultado da operação é {n1 * n2:.2f}.\n")
+            print(f"\nO resultado da operação é {n1 * n2}.\n")
         else:
-            print(f"\nO resultado da operação é {n1 / n2:.2f}.\n")
+            print(f"\nO resultado da operação é {n1 / n2}.\n")
         time.sleep(3) # Esperar 3 segundos
     else:
         print("Insira uma opção válida.\n") # Usuário colocou uma opção inválida

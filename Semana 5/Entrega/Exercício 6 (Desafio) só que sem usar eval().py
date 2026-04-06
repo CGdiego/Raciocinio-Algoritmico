@@ -13,6 +13,10 @@ while not i:
     operacao = partes[1]
     no2 = float(partes[2])
 
+    if no2 == 0 and operacao == "/":
+        while no2 == 0:
+            no2 = float(input("\nInforme um segundo valor diferente de zero: "))
+
     while operacao not in ["+", "-", "*", "/", "%"]:
         operacao = input("Insira um operador válido: ")
 

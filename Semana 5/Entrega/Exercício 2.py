@@ -12,4 +12,4 @@ while i > 0:
     i -= 1
     plus += 1
 
-print (conta)
+print(f"O resultado é {conta}.")

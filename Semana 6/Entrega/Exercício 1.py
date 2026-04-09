@@ -5,4 +5,4 @@ for i in range(101):  # De 0 até 100
         print(i)
         quant += 1
 
-print(f"{quant} números atingiram a condição.")
+print(f"\n{quant} números atenderam à condição.")

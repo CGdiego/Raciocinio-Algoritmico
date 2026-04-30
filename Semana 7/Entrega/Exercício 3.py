@@ -5,4 +5,4 @@ for i in range(n1,n2+1): # Seleciona os números da tabuada
     print(f"Tabuada do {i}:") # Só pra deixar mais ajeitado com o título
     for tabuada in range(1, 11): # Vai de 1 até 10
         print(i * tabuada) # Multiplica o número da tabuada pelo multiplicador
-    print("\n") # Separa as linhas
+    print() # Separa as linhas

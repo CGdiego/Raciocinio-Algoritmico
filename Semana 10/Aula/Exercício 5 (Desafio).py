@@ -1,4 +1,5 @@
 vetor = [0, 0, 0, 0, 0, 0]
+sena = [9, 13, 21, 32, 33, 59]
 
 for i in range(6):
     aposta = input(f"Insira o seu {i+1}º número para a Mega-Sena: ")
@@ -8,7 +9,9 @@ for i in range(6):
         aposta = input(f"Insira o seu {i+1}º número para a Mega-Sena: ")
 
     aposta = int(aposta)
-
     vetor[i] = aposta
+
+    if vetor[i] == sena[i]:
+        
 
 print(vetor)

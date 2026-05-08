@@ -12,6 +12,5 @@ for i in range(6):
     vetor[i] = aposta
 
     if vetor[i] == sena[i]:
-        
 
 print(vetor)

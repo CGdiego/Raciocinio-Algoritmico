@@ -7,4 +7,3 @@ A[4] = 100
 
 for a in A:
     print(a)
-    a += 1

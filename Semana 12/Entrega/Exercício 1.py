@@ -12,3 +12,6 @@ for linha in range(5):
             matriz[linha][coluna] = 1
         else:
             matriz[linha][coluna] = 0
+
+for linha in range(5):
+    print(matriz[linha])

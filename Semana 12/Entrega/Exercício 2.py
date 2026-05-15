@@ -19,12 +19,16 @@ for linha in range(4):
     print(matriz[linha])
 
 maior = [0][0]
+linhaM = 0
+colunaM = 0
 
 for linha in range(4):
     for coluna in range(4):
         if matriz[linha][coluna] > maior:
             maior = matriz[linha][coluna]
+            linhaM = linha
+            colunaM = coluna
 
 print()
 
-print(f"O maior número é {maior}.")
+print(f"A localização do maior número é {linhaM}, {colunaM}.")

@@ -6,7 +6,7 @@ while i < len(valores):
     repetido = False # Não há nenhum valor repetido no início
     ii = 0 # Novo índice
     while ii < i:
-        if valores[i] == valores[ii]:
+        if valores[i] == valores[ii]: # Tem repetição
             repetido = True
         ii += 1
     if repetido:
@@ -15,12 +15,14 @@ while i < len(valores):
 
 i = 0
 
+# Arruma a ordem dos -999
 while i < len(valores):
     if valores[i] != -999:
         valores[subst] = valores[i]
         subst += 1
     i += 1
 
+# Preenche o resto com -999
 while subst < len(valores):
     valores[subst] = -999
     subst += 1

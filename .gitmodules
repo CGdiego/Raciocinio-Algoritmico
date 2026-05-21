@@ -1,3 +1,6 @@
 [submodule "PjBL-RA1-Jokenpo"]
 	path = PjBL-RA1-Jokenpo
 	url = https://github.com/CGdiego/PjBL-RA1-Jokenpo
+[submodule "PjBL-RA2-Batalha-Naval"]
+	path = PjBL-RA2-Batalha-Naval
+	url = https://github.com/CGdiego/PjBL-RA2-Batalha-Naval

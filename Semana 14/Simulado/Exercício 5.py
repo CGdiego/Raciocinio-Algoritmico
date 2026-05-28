@@ -1,0 +1,11 @@
+matriz = [[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9]]
+
+n = len(matriz)
+lista = []
+
+for i in range(n):
+    lista.append(matriz[i][n - i - 1])
+
+print(lista)
